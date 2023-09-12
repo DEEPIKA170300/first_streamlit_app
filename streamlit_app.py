@@ -42,6 +42,9 @@ my_data_row = my_cur.fetchone()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
+add_my_friut=(what fruit you like to add?)
+
+streamlit.write('Thanks for adding ',add_my_fruit)
 
 
 
